@@ -16,6 +16,11 @@ body {
 h1 {
   text-align: center;
 }
+.hOmeH6{
+  font-size: 15px;
+  font-style:italic;
+  text-align:center;
+}
 
 p {
   font-size: small;
@@ -60,6 +65,15 @@ p {
   height: 260px;
 }
 
+.patient-exp-1 {
+  width: 260px;
+  height: 160px;
+  margin-top: 75px;
+  padding: 3%;
+  justify-content: center;
+
+}
+
 .qrcode {
   width :100px;
   height: 100px;
@@ -96,4 +110,11 @@ div.row {
 
 .contact { 
   text-align: center;
+}
+
+.uList {
+  font-size: 12px;
+  margin-right: 7%;
+  margin-left: 7%;
+  
 }
