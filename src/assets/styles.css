@@ -100,6 +100,14 @@ p {
 
 }
 
+.footer-img-fb {
+  width: 50px;
+  height: 50px;
+}
+.footer-img-ins {
+  width: 35px;
+  height: 35px;
+}
 .qrcode {
   width :190px;
   height: 190px;

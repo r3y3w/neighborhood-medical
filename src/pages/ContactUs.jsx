@@ -1,17 +1,19 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import Table from 'react-bootstrap/Table'
-import marchevent from '../assets/images/marchevent.jpg'
+import { Container, Row, Col } from "react-bootstrap";
+import Table from "react-bootstrap/Table";
+import marchevent from "../assets/images/marchevent.jpg";
+import facebookimg from "../assets/images/facebook-image.png";
+import instagram from "../assets/images/instagram-transparant.png";
 
 const ContactUs = () => {
   return (
     <>
       <Container>
         <Row>
-          <h2 className='hwelcome'>Contact Us</h2>
+          <h2 className="hwelcome">Contact Us</h2>
         </Row>
         <Row>
           <Col xs={11}>
-            <Table bordered hover className='contact'>
+            <Table bordered hover className="contact">
               <thead>
                 <tr>
                   <th>First</th>
@@ -36,20 +38,49 @@ const ContactUs = () => {
               </tbody>
             </Table>
           </Col>
-          <Col xl={12} className='contact'>
-            <h2 className='hwelcome'>Come Meet Us!</h2>
-            <img src={marchevent} alt="Health Event Flyer" className='marchevent'/>
+          <Col xl={12} className="contact">
+            <h2 className="hwelcome">Come Meet Us!</h2>
+            <img
+              src={marchevent}
+              alt="Health Event Flyer"
+              className="marchevent"
+            />
           </Col>
         </Row>
 
         <Row>
           <Col></Col>
-          <Col xs={3}></Col>
+          <Col xs={6}>
+            {" "}
+            Check us out in Social Media:{" "}
+            <a
+              href="https://www.facebook.com/profile.php?id=100089850439017&mibextid=LQQJ4d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="footer-img-fb"
+                src={facebookimg}
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/_neighborhoodmedical?utm_source=qr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="footer-img-ins"
+                src={instagram}
+                alt="instagram"
+              />
+            </a>
+          </Col>
           <Col></Col>
         </Row>
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;

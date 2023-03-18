@@ -14,7 +14,9 @@ const Footer = () => {
             </p>
                 <img className="qrcode" src={qrcode} alt="QR Code" /> 
 
-            < p className="pFooter">
+            < p className="pFooter1">
+
+          
             Copyright © Neighborhood Medical| | {copyrightDate()} | all rights reserved
             </p>
         </footer>
