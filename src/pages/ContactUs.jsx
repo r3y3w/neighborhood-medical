@@ -10,7 +10,7 @@ const ContactUs = () => {
           <h2 className='hwelcome'>Contact Us</h2>
         </Row>
         <Row>
-          <Col xs={12}>
+          <Col xs={11}>
             <Table bordered hover className='contact'>
               <thead>
                 <tr>

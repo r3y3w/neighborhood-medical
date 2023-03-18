@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <p className="pFooter">
-                To donate scan Zelle® QR code here: 
+                To DONATE scan Zelle® QR code here: 
                 
             </p>
                 <img className="qrcode" src={qrcode} alt="QR Code" /> 

@@ -5,55 +5,51 @@ const AboutUs = () => {
     <div>
       <Container>
         <Row>
-          <Col xs={4}>
-            <h4>Our Vision</h4>
-            <p className="pAboutUs">
-              To develop a healthy community by redefining the medical culture
-              and reducing health disparities.
-            </p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs={6}>
-            <h3>Our Mission</h3>
-            <p className="pAboutUs">
+          <Col xs={10}>
+            <h6 className="aBoutUsH4">Our Vision</h6>
+            <p className="aBoutUsP">
               <ul>
-              To increase access to quality care through mobilization of our
-              _____community care teams within underrepresented communities and
-              diverse populations encompassing our 5 core values.
+                To develop a healthy community by redefining the medical culture
+                and reducing health disparities.
               </ul>
             </p>
           </Col>
         </Row>
 
         <Row>
-          <Col xs={6}>
-            <h3>Our Values</h3>
-            <p className="pAboutUs">
+          <Col xs={10}>
+            <h6 className="aBoutUsH4">Our Mission</h6>
+            <p className="aBoutUsP">
               <ul>
-
-              <br /> Our 5 core values as an organization are:
-              <br /> ● We are passionate in serving the community
-              <br /> ● We are successful leaders when we work as a team ● We
-              expand health promotion
-              <br /> ● We are patient centered
-              <br /> ● We deliver quality health education Our values are
-              supported by our drive to provide comprehensive mobile medical
-              services. With a patient-centered approach, our mission as a
-              neighborhood medical team will address the social determinants
-              that create obstacles in seeking care.
-
+                To increase access to quality care through mobilization of our
+                patient-centered community care teams within underrepresented communities
+                and diverse populations encompassing our 5 core values.
               </ul>
             </p>
           </Col>
-          
-          <Col xs={6}>
-          <img
-            className="patient-image-2"
-            src="https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg"
-            alt="patient-image1"
-          /></Col>
+        </Row>
+
+        <Row>
+          <Col xs={10}>
+            <h6 className="aBoutUsH4">Our Values</h6>
+            <p className="aBoutUsP">
+              <ul>
+                <br />{" "}
+                <h6 className="aBoutUsH6">
+                  Our 4 core values as an organization are:
+                </h6>
+                <br />
+                <li>We build a team of compassionate leaders</li>
+                <br />
+                <li>We expand health promotion</li>
+                <br />
+                <li> We create a culture of respect and humility</li>
+                <br />
+                <li>We deliver quality health education</li>
+                <br />
+              </ul>
+            </p>
+          </Col>
         </Row>
       </Container>
     </div>
