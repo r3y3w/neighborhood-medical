@@ -50,7 +50,7 @@ const ContactUs = () => {
 
         <Row>
           <Col></Col>
-          <Col xs={6}>
+          <Col xs={62}>
             {" "}
             Check us out in Social Media:{" "}
             <a

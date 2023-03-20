@@ -113,6 +113,16 @@ p {
   height: 190px;
   padding-bottom: 2%;
 }
+
+.nurse-image-1 {
+  width: 490px;
+  height: 280px;
+  margin-top: 5px;
+  margin-left: 240px;
+  justify-content: center;
+}
+
+
 .hwelcome {
   margin: 30px 0px;
   padding: auto;

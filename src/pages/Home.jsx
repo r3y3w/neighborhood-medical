@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import marchevent1 from "../assets/images/marchevent.jpg";
+import patientneeds from "../assets/images/woman-with-recovery-healthcare-workers.jpg"
 const Home = () => {
   return (
     <>
@@ -14,8 +15,8 @@ const Home = () => {
           <Col xs={6}>
             <img
               className="patient-image-1"
-              src="https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg"
-              alt="patient-image1"
+              src={patientneeds}
+              alt="Image by DCStudio on Freepik"
             />
             <h6 className="hOmeH6">What Do We Offer for Our Patients?</h6> <br />
             <ul className="uList">

@@ -1,4 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
+import nurse from "../assets/images/female-nurse.jpg";
+import medic1 from "../assets/images/male-md.jpg";
+import medic2 from "../assets/images/medic.jpg";
 
 const AboutUs = () => {
   return (
@@ -7,6 +10,11 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Vision</h6>
+            <img
+              className="nurse-image-1"
+              src={nurse}
+              alt="Image by DCStudio on Freepik"
+            />
             <p className="aBoutUsP">
               <ul>
                 To develop a healthy community by redefining the medical culture
@@ -19,11 +27,17 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Mission</h6>
+            <img
+              className="nurse-image-1"
+              src={medic1}
+              alt="Image by DCStudio on Freepik"
+            />
             <p className="aBoutUsP">
               <ul>
                 To increase access to quality care through mobilization of our
-                patient-centered community care teams within underrepresented communities
-                and diverse populations encompassing our 5 core values.
+                patient-centered community care teams within underrepresented
+                communities and diverse populations encompassing our 5 core
+                values.
               </ul>
             </p>
           </Col>
@@ -32,6 +46,11 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Values</h6>
+            <img
+              className="nurse-image-1"
+              src={medic2}
+              alt="Image by DCStudio on Freepik"
+            />
             <p className="aBoutUsP">
               <ul>
                 <br />{" "}
