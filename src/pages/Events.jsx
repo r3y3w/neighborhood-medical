@@ -9,7 +9,7 @@ const Events = () => {
             <h6 className="eVentsH4"> Events </h6>
             <ol className="eVentOl">
               <li>Health Fair - March 25, 2023 </li>
-              <ul >
+              <ul>
                 <li> Photo Gallery (Pending)</li>
               </ul>
             </ol>

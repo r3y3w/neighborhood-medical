@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import marchevent1 from "../assets/images/marchevent.jpg";
-import patientneeds from "../assets/images/woman-with-recovery-healthcare-workers.jpg"
+import patientneeds from "../assets/images/woman-with-recovery-healthcare-workers.jpg";
 const Home = () => {
   return (
     <>
@@ -18,7 +18,8 @@ const Home = () => {
               src={patientneeds}
               alt="By DCStudio on Freepik"
             />
-            <h6 className="hOmeH6">What Do We Offer for Our Patients?</h6> <br />
+            <h6 className="hOmeH6">What Do We Offer for Our Patients?</h6>{" "}
+            <br />
             <ul className="uList">
               <li>
                 Adult Social Care, Mental Health & Community Services: works
@@ -38,47 +39,37 @@ const Home = () => {
                 neurological and substance abuse disorders.
               </li>
             </ul>
-            </Col>
-            <Col xs={5}>
-              <img
-                className="patient-exp-1"
-                src="https://www.usa.philips.com/c-dam/b2bhc/master/hts/PX-week/patientexperienceweekicon_transparant.png"
-                alt="patient experience"
-              />
-            
+          </Col>
+          <Col xs={5}>
+            <img
+              className="patient-exp-1"
+              src="https://www.usa.philips.com/c-dam/b2bhc/master/hts/PX-week/patientexperienceweekicon_transparant.png"
+              alt="patient experience"
+            />
+
             <ul className="uList">
               <h6 className="hOmeH6">
-              Our own experience, based on years of caring for patients,
-              is that people seeking medical care have the following needs:
-              </h6> 
+                Our own experience, based on years of caring for patients, is
+                that people seeking medical care have the following needs:
+              </h6>
+              <br />
+              <li>To be treated with respect and dignity</li>
+              <br />
+              <li>To be actively engaged in a community of some kind</li>
+              <br />
+              <li>To be involved in his/her own treatment and living plan</li>
               <br />
               <li>
-                To be treated with respect and dignity 
-              </li>
-              <br />
-              <li>
-                To be actively engaged in a community of some kind
-           
-              </li>
-              <br />
-              <li>
-                To be involved in his/her own treatment and living plan
-              </li>
-              <br />
-              <li>
-                To be cared for by skilled, medically-knowledgeable
-                significant need for quality home health care and social
-                services within this region and we believe that by employing
-                competent and well-educated staff and providing them with
-                organized and responsive management, we can become the best
-                community health care/social service organization of choice in
-                Southern Florida.
+                To be cared for by skilled, medically-knowledgeable significant
+                need for quality home health care and social services within
+                this region and we believe that by employing competent and
+                well-educated staff and providing them with organized and
+                responsive management, we can become the best community health
+                care/social service organization of choice in Southern Florida.
               </li>
             </ul>
           </Col>
         </Row>
-
-
       </Container>
     </>
   );

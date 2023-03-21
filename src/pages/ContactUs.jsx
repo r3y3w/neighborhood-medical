@@ -58,22 +58,14 @@ const ContactUs = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="footer-img-fb"
-                src={facebookimg}
-                alt="Facebook"
-              />
+              <img className="footer-img-fb" src={facebookimg} alt="Facebook" />
             </a>
             <a
               href="https://www.instagram.com/_neighborhoodmedical?utm_source=qr"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="footer-img-ins"
-                src={instagram}
-                alt="instagram"
-              />
+              <img className="footer-img-ins" src={instagram} alt="instagram" />
             </a>
           </Col>
           <Col></Col>

@@ -10,11 +10,7 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Vision</h6>
-            <img
-              className="center"
-              src={nurse}
-              alt="By DCStudio on Freepik"
-            />
+            <img className="center" src={nurse} alt="By DCStudio on Freepik" />
             <p className="aBoutUsP">
               <ul>
                 To develop a healthy community by redefining the medical culture
@@ -27,11 +23,7 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Mission</h6>
-            <img
-              className="center"
-              src={medic1}
-              alt="By DCStudio on Freepik"
-            />
+            <img className="center" src={medic1} alt="By DCStudio on Freepik" />
             <p className="aBoutUsP">
               <ul>
                 To increase access to quality care through mobilization of our
@@ -46,11 +38,7 @@ const AboutUs = () => {
         <Row>
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Values</h6>
-            <img
-              className="center"
-              src={medic2}
-              alt="By DCStudio on Freepik"
-            />
+            <img className="center" src={medic2} alt="By DCStudio on Freepik" />
             <p className="aBoutUsP">
               <ul>
                 <br />{" "}
