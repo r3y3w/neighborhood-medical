@@ -11,7 +11,7 @@ const AboutUs = () => {
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Vision</h6>
             <img
-              className="nurse-image-1"
+              className="center"
               src={nurse}
               alt="By DCStudio on Freepik"
             />
@@ -28,7 +28,7 @@ const AboutUs = () => {
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Mission</h6>
             <img
-              className="nurse-image-1"
+              className="center"
               src={medic1}
               alt="By DCStudio on Freepik"
             />
@@ -47,7 +47,7 @@ const AboutUs = () => {
           <Col xs={10}>
             <h6 className="aBoutUsH4">Our Values</h6>
             <img
-              className="nurse-image-1"
+              className="center"
               src={medic2}
               alt="By DCStudio on Freepik"
             />

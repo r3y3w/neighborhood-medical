@@ -6,7 +6,7 @@ const Gallery = () => {
           <Container>          
     
             <Row>
-              <Col xs={10}>
+              <Col xs={5}>
                 <h6 className="aBoutUsH4">Health Fair -  March 25, 2023 </h6>
               </Col>
             </Row>
