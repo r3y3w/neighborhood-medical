@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Events from './pages/Events'
 import ContactUs from './pages/ContactUs';
-// import Gallery from './pages/Gallery';
+import Gallery from './pages/Gallery';
 
 
 
@@ -20,7 +20,7 @@ function App() {
             <Route path='/aboutus' element={<AboutUs /> } />
             <Route path='/events' element={<Events /> } /> 
             <Route path='/contactus' element={<ContactUs /> } />
-            {/* <Route path='/gallery' element={<Gallery /> } />  */}
+            <Route path='/gallery' element={<Gallery /> } /> 
             <Route path='/Header' element={<Header /> } />
             <Route path='/Footer' element={<Footer /> } /> 
             <Route path='*' element={<h2>Page Not Found</h2>} />        
