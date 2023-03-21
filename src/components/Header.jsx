@@ -23,9 +23,9 @@ const Header = () => {
             <h6 className="htab">
               <Nav.Link href="/contactus">Contact Us</Nav.Link>
             </h6>
-            <h6 className="htab">
+            {/* <h6 className="htab">
               <Nav.Link href="/gallery">Gallery</Nav.Link>
-            </h6>
+            </h6> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

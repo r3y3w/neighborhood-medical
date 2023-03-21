@@ -13,7 +13,7 @@ const AboutUs = () => {
             <img
               className="nurse-image-1"
               src={nurse}
-              alt="Image by DCStudio on Freepik"
+              alt="By DCStudio on Freepik"
             />
             <p className="aBoutUsP">
               <ul>
@@ -30,7 +30,7 @@ const AboutUs = () => {
             <img
               className="nurse-image-1"
               src={medic1}
-              alt="Image by DCStudio on Freepik"
+              alt="By DCStudio on Freepik"
             />
             <p className="aBoutUsP">
               <ul>
@@ -49,7 +49,7 @@ const AboutUs = () => {
             <img
               className="nurse-image-1"
               src={medic2}
-              alt="Image by DCStudio on Freepik"
+              alt="By DCStudio on Freepik"
             />
             <p className="aBoutUsP">
               <ul>
