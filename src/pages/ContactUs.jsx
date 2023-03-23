@@ -32,7 +32,7 @@ const ContactUs = () => {
                 <tr>
                   <td>Hillary</td>
                   <td>Rodriguez</td>
-                  <td>Comunity Health Director</td>
+                  <td>Community Health Director</td>
                   <td>nbhdmed@gmail.com</td>
                 </tr>
               </tbody>
