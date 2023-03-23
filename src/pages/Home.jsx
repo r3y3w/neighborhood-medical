@@ -16,6 +16,7 @@ const Home = () => {
             <img
               className="patient-image-1"
               src={patientneeds}
+              title="By DCStudio on Freepik"
               alt="By DCStudio on Freepik"
             />
             <h6 className="hOmeH6">What Do We Offer for Our Patients?</h6>{" "}
