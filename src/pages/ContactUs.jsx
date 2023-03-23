@@ -26,13 +26,13 @@ const ContactUs = () => {
                 <tr>
                   <td>Jacquie</td>
                   <td>Gonzalez</td>
-                  <td>Founder</td>
+                  <td>Clinical Director</td>
                   <td>nbhdmed@gmail.com</td>
                 </tr>
                 <tr>
                   <td>Hillary</td>
                   <td>Rodriguez</td>
-                  <td>Founder</td>
+                  <td>Comunity Health Director</td>
                   <td>nbhdmed@gmail.com</td>
                 </tr>
               </tbody>
