@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
-import marchevent from "../assets/images/marchevent.jpg";
+// import marchevent from "../assets/images/marchevent.jpg";
+import novemberevent1 from "../assets/images/novemberevent.jpg";
 import facebookimg from "../assets/images/facebook-image.png";
 import instagram from "../assets/images/instagram-transparant.png";
 
@@ -41,7 +42,7 @@ const ContactUs = () => {
           <Col xl={12} className="contact">
             <h2 className="hwelcome">Come Meet Us!</h2>
             <img
-              src={marchevent}
+              src={novemberevent1}
               alt="Health Event Flyer"
               className="marchevent"
             />
