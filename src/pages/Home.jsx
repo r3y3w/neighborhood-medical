@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import marchevent1 from "../assets/images/marchevent.jpg";
+// import marchevent1 from "../assets/images/marchevent.jpg";
+import novemberevent1 from "../assets/images/novemberevent.jpg";
 import patientneeds from "../assets/images/woman-with-recovery-healthcare-workers.jpg";
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
           <h2 className="hwelcome">Welcome!</h2>
         </Row>
         <Row>
-          <img className="marchevent" src={marchevent1} alt="march event" />
+          <img className="marchevent" src={novemberevent1} alt="march event" />
         </Row>
         <Row className="patient-needs">
           <Col xs={6}>
